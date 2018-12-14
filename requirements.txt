@@ -1,0 +1,13 @@
+Requirements:
+
+qdarkstyle>=2.5.4
+pyqt5>=5.11.3
+numpy>=1.14.5
+pyqtgraph>=0.10.0
+mido>=1.2.9
+pygame>=1.9.3
+opensimplex>=0.2
+pyopengl>=3.1.0
+librosa>=0.5.1
+keras>=2.1.6
+tensorflow>=1.8.0
