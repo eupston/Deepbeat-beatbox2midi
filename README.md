@@ -9,9 +9,21 @@ It includes an audio recorder and trimmer for recording and slicing your beatbox
 
 ![](resources/images/deepbeat_interface.png)
 
-##### Supported Platforms Builds:
-- macOS (Mojave)
-- Windows 10
+## Supported Platforms Builds:
+- [macOS (Mojave)](https://bit.ly/2zT9LsH)
+- [Windows 10](https://bit.ly/2UIAKjm)
+
+## Building your own executable
+If you'd like to build for a different OS version (particularly Mac) you can use py2app or pyinstaller and the setup files from the Build_setup folder.
+  
+  Windows:
+  ```
+  pyinstaller deepbeat.spec
+  ```
+  Mac:
+  ```
+  python setup.py py2app
+  ```
 
 ## Running from the Terminal
 Note this was build using python 3.6 so you'll need this version of python or one that is compatible with pyqt5. Also you'll need to pip install all the modules in requirements.txt.
@@ -20,3 +32,7 @@ Note this was build using python 3.6 so you'll need this version of python or on
 cd /deepbeat-beatbox2midi
 python Deepbeat.py
 ```
+
+##### Special Thanks
+This repo uses @Scott Hawley amazing [Panotti](https://github.com/drscotthawley/panotti) for training the beatboxing model. check it out if you're interested in Audio Classification.
+
