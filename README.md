@@ -4,7 +4,7 @@ Deepbeat converts beatboxing to midi using a Convolutional neural network
 # Deepbeat
 ##### Welcome to the Deepbeat repository!
 Deepbeat is a crossplatform application used to convert beatboxing to midi drum information (Kick, Snare, Hihat) using a convolutional neural network trained on 1000s of beatboxing samples. 
-It includes an audio recorder and trimmer for recording and slicing your beatboxes. The Midi section includes a convert to midi button, 4 drumkits for midi playback, a looper, tempo slider, and a metronome. Once your happy with your beat simply export the midi and use it in your favourite DAW.
+It includes an audio recorder and trimmer for recording and slicing your beatboxes. The Midi section includes a convert to midi button, 4 drumkits for midi playback, a looper, tempo slider, and a metronome. Once your happy with your beat simply export the midi and use it in your favourite DAW. A demo of Deepbeat is [here](https://www.youtube.com/watch?v=qxeina_3zQA).
 
 
 ![](resources/images/deepbeat_interface.png)
