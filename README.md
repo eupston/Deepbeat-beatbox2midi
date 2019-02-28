@@ -14,7 +14,7 @@ It includes an audio recorder and trimmer for recording and slicing your beatbox
 - [Windows 10](https://bit.ly/2UIAKjm)
 
 ## Running from the Terminal
-Note this was build using python 3.6 so you'll need this version of python or one that is compatible with pyqt5. Also you'll need to pip install all the modules in `requirements.txt`.
+Note this was built using python 3.6 so you'll need this version of python or one that is compatible with pyqt5. Also you'll need to pip install all the modules in `requirements.txt`.
 
 ```
 cd /deepbeat-beatbox2midi
